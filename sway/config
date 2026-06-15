@@ -18,7 +18,7 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu wmenu-run
+set $menu fuzzel --show drun
 
 ### Output configuration
 #
@@ -68,6 +68,9 @@ output * bg ~/wp.jpg fill
 #
     # Start a terminal
     bindsym $mod+Return exec $term
+    
+    # Launch Text Editor
+    bindsym $mod+i exec zeditor
 
     # Kill focused window
     bindsym $mod+q kill
