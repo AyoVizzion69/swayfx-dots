@@ -1,6 +1,6 @@
 
 shadows enable
-corner_radius 10
+corner_radius 5
 blur enable
 exec mako
 font pango:Jetbrains Mono Nerd Font 12
@@ -243,4 +243,4 @@ include /etc/sway/config.d/*
 exec_always autotiling
 
 gaps inner 10
-gaps outer 20
+gaps outer 1
